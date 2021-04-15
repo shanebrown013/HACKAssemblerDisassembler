@@ -1,0 +1,7 @@
+@symbol1
+@hello
+@world
+(loop)
+@hello
+@symbol1
+@loop

@@ -1,0 +1,7 @@
+@SP
+@LCL
+@ARG
+@THIS
+@THAT
+@SCREEN
+@KBD
