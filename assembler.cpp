@@ -106,7 +106,7 @@ string aInstruction(string s1, map<string, int> ST) {
     string dropAt = s1.substr(1,s1.length()-1); // Remove @
     string binary;
     int addr;
-    if (!isNotNumber(s1)) {
+    if (!isNotNumber(dropAt)) {
         int num = stoi(dropAt);
         if (num > 0) {
             binary = toBinary15Bit(num);
